@@ -114,7 +114,7 @@ conda install cudatoolkit=10.2 -c pytorch
 2. `Setup Data Files`
 *   `Download Model Weights`
 *   `Place them in the right folder`
-*   <code>Now run `<strong>conda activate`</strong></code>
+*   <code>Now run `conda activate`</code>
 3. <strong><code>Generate New Predictions</code></strong>
 
     ```
