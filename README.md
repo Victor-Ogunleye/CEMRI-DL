@@ -49,3 +49,29 @@ CEMRI.yml
 Simple Yaml file to help setup the environment variables and config files
 
 
+
+
+Getting Started
+Environment Setup
+Download Anaconda
+Setup Anaconda with the details in CEMRI.yml
+Manual Config
+If you can’t install with the YAML file. Consider installing from scratch
+Conda env create -f Cemricontrast.yml
+conda create -n CemriContrast
+
+conda activate CemriContrast
+conda install python=3.7 numpy scipy scikit-image scikit-learn seaborn -c anaconda
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+conda install nibabel tqdm -c conda-forge
+conda install cudatoolkit=10.2 -c pytorch
+Setup Data Files
+Download Model Weights
+Place them in the right folder
+Now run `conda activate`
+Generate New Predictions
+Run the following scripts in the python 
+Python generate_new_predictions.py
+Python verify_old_new_predictions_identical.py
+
+
